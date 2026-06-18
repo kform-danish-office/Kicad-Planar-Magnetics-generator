@@ -1,0 +1,11 @@
+Topology comparison  400 V -> 24 V, 220 W, 150 kHz  (Ns=4)
+topology                 Np:Ns  duty   Vpri   Ipri   Isec  notes
+flyback                  51:4   0.45   380V   0.9A  12.4A  B 172 mT; gapped/energy
+forward                  28:4   0.45   380V   0.9A   9.2A  B 313 mT; no energy storage; cor
+two-switch forward       28:4   0.45   380V   0.9A   9.2A  B 313 mT; clamped reset to Vin; 
+active-clamp forward     37:4   0.60   380V   0.8A   9.2A  B 316 mT; active-clamp reset ena
+half-bridge              28:4   0.45   200V   1.3A   9.2A  B 82 mT; magnetizing only
+full-bridge              56:4   0.45   400V   0.6A   9.2A  B 82 mT; magnetizing only
+push-pull                56:4   0.45   400V   0.4A   6.5A  B 82 mT; magnetizing only
+LLC half-bridge          33:4   0.50   200V   1.3A  10.2A  B 78 mT; gapped Lm set by reson
+LLC full-bridge          65:4   0.50   400V   0.6A  10.2A  B 79 mT; gapped Lm set by reson

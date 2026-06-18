@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "planarmag"
+version = "1.4.0"
+description = "Generate planar-magnetics (spiral inductors & transformers) as KiCad PCBs"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["kicad", "pcb", "magnetics", "inductor", "transformer", "planar"]
+dependencies = []
+
+[project.optional-dependencies]
+preview = ["matplotlib"]
+dev = ["pytest", "matplotlib"]
+
+[project.scripts]
+planarmag = "planarmag.cli:main"
+
+[tool.setuptools]
+packages = ["planarmag"]

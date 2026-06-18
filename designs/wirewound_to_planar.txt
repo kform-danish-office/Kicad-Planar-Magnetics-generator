@@ -1,0 +1,11 @@
+Wire-wound -> planar conversion
+  primary  : 27T, 0.060 mm2 copper
+  secondary: 4T, 0.500 mm2 copper (ratio 6.75)
+
+Ranked options (fewest layers first):
+core E32/6/20: 5 layers total -> 2 x 4-layer board(s)   (4 oz)
+  primary    27T  3series x 1parallel =  3 layers  w=0.72mm 4oz  Cu 0.100/0.060mm2  ~384.6 mOhm
+  secondary   4T  2series x 1parallel =  2 layers  w=3.94mm 4oz  Cu 0.548/0.500mm2  ~10.4 mOhm
+core E32/6/20: 8 layers total -> 2 x 4-layer board(s)   (2 oz)
+  primary    27T  4series x 1parallel =  4 layers  w=0.98mm 2oz  Cu 0.068/0.060mm2  ~563.4 mOhm
+  secondary   4T  4series x 1parallel =  4 layers  w=8.08mm 2oz  Cu 0.562/0.500mm2  ~10.2 mOhm

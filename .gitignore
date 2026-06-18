@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# scratch / working output (datasheets, intermediate boards, previews)
+out/
+
+# KiCad local project state
+*.kicad_prl
+*-backups/
+fp-info-cache
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.history/
+
+# DRC / report artefacts
+*.rpt
+*-drc.*
